@@ -1,0 +1,25 @@
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        int arr[]={0,100,10,20,1,30,100,10,20,50,0,-5};
+        int len=arr.length;
+        int min=arr[0];
+        int max=arr[0];
+        for(int i=0;i<len;i++)
+        {
+            if(arr[i]>max)
+            {
+                max=arr[i];
+            }
+            if(arr[i]<min)
+            {
+                min=arr[i];
+            }
+        }
+       System.out.println("Max: "+max+"\nMin: "+min);
+       
+        
+    }
+}
