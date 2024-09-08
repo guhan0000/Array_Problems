@@ -1,0 +1,16 @@
+public class Main
+{
+    public static void main(String[] args) {
+        int arr[] = {0, 1, 10, 50};
+        int len = arr.length;
+        int new_arr[]=new int[len];
+        for(int i=0;i<len;i++)
+        {
+            new_arr[i]=arr[len-1-i];
+        }
+        for(int i=0;i<len;i++)
+        {
+           System.out.print(new_arr[i]+" ");
+        }
+    }
+}
